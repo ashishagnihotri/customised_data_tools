@@ -1,0 +1,16 @@
+Package: CustomisedDataTools
+Type: Package
+Title: Tools that can automate parts of the data wrangling workflow
+Version: 1.1.0.9008
+Author: Ashish Agnihotri <ashish.agnihotri@stats.govt.nz>
+Maintainer: Bob Rasmusen <bob.rasmusen@stats.govt.nz>
+Description: A set of tools that can be used across datasets and assist users in their data wrangling workflow.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Config/testthat/edition: 3
+Imports: dplyr, openxlsx, purrr, readr, testthat, tidyr, tibble, rlang
+RoxygenNote: 7.3.1
+Depends: R (>= 3.5.0)
+NeedsCompilation: no
+Packaged: 2024-02-09 01:13:04 UTC; aagnihot
